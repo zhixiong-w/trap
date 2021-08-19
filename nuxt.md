@@ -20,7 +20,7 @@ postcss: [
 ],
 ```
 
-在 static/js 文件夹下添加 flex
+在 static/js 文件夹下添加 flexible.js 文件
 ``` JavaScript
 (function flexible(window, document) {
   const docEl = document.documentElement // 返回文档的root元素
